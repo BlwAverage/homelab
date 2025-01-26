@@ -49,7 +49,8 @@ I currently run a 3 node proxmox cluster with the following nodes.
 
 
 3. Create a linux bond on MS-01 nodes.
-3.1. In the web interface click on the node and select network.
+
+    3.1. In the web interface click on the node and select network.
     
     3.2. Click on vmbr0 and select edit.
     
@@ -70,6 +71,7 @@ I currently run a 3 node proxmox cluster with the following nodes.
     3.10. Click on Apply Configuration.
 
 4. Create SFP+ Link for clustering.
+
     4.1. In the web interface click on node and select network.
 
     4.2. In the top left click on create and select Linux Bridge
