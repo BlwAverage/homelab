@@ -34,6 +34,7 @@ I currently run a 3 node proxmox cluster with the following nodes.
 
 
 2. Add synologoy NFS share.
+
     2.1. In the web interface click on datacenter and select storage.
     
     2.2. In the top left click on Add and select NFS.

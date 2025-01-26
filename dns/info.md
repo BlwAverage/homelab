@@ -56,12 +56,12 @@ named-checkconf /etc/bind/named.conf.options
 ```bash
 mkdir -p /etc/bind/zones
 ```
-7. Create zone files
+9. Create zone files
 ```bash
 touch /etc/bind/zones/example.domain
 touch /etc/bind/zones/example.domain.rev
 ```
-8. Update primary domain zone file
+10. Update primary domain zone file
 ```
 example:
 $TTL    604800
@@ -85,11 +85,11 @@ ms01ap  IN      A       192.168.20.16
 ms01bp  IN      A       192.168.20.19
 junk01p IN      A       192.168.20.21
 ```
-9. Check the configuration with named-checkzone
+11. Check the configuration with named-checkzone
 ```bash
 named-checkzone example.domain /etc/bind/zone/example.domain
 ```
-10. Update reverse zone file
+12. Update reverse zone file
 ```
 example:
 $TTL    604800
@@ -115,11 +115,11 @@ pi401p  IN      A       192.168.20.11
 19      IN      PTR     ms01bp.example.domain
 21      IN      PTR     junk01p.example.domain
 ```
-11. Check the configuration with named-checkzone
+13. Check the configuration with named-checkzone
 ```bash
 named-checkzone example.domain /etc/bind/zone/example.domain
 ```
-12. Restart bind server
+14. Restart bind server
 ```bash
 systemctl restart bind9
 
@@ -127,3 +127,4 @@ or
 
 systemctl restart named
 ```
+
