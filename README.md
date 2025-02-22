@@ -1,0 +1,3 @@
+# Overview
+
+Like all homelabs the focus for mine is to study technology relevant to my work and to study topics that I'm interested in. I also plan to self host some services that I can access when on the go either through VPN or cloudflare tunnels. I am currently focusing on training myself towards a devops or sre style skill set, from starting my career in IT I've always attempted to learn across different diciplines but this has left me feeling like a mix of jack of all trades master of none. I know surface level information on topics but never really specialised in one, by building this homelab I aim to identify which areas best click with me so I can focus on developing a deeper skill set there.
